@@ -91,14 +91,15 @@ canvas {
     width: 100%;
     padding: 20px;
   }
-  .arrows-control {
+  /*  .arrows-control {
     display: block;
     margin-top: 2rem;
-  }
+  } */
 }
 
 @media (pointer: coarse) {
   .arrows-control {
     display: block;
+    margin-top: 2rem;
   }
 }

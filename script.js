@@ -15,7 +15,7 @@ const brickColumnCount = 5
 const ball = {
   x: canvas.width / 2,
   y: canvas.height / 2,
-  size: 10,
+  size: 15,
   speed: 4,
   dx: 4,
   dy: -4,
@@ -25,7 +25,7 @@ const ball = {
 const paddle = {
   x: canvas.width / 2 - 40,
   y: canvas.height - 20,
-  w: 80,
+  w: 120,
   h: 10,
   speed: 8,
   dx: 0,
