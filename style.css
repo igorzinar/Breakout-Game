@@ -91,7 +91,7 @@ canvas {
   }
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media (pointer: coarse) {
   .arrows-control {
     display: block;
     margin-top: 2rem;
