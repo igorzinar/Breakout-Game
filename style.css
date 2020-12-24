@@ -27,7 +27,7 @@ canvas {
   display: none;
 }
 .arrows-control button {
-  font-size: 2rem;
+  font-size: 4rem;
   margin: 1rem;
   background: orange;
   color: #fff;
@@ -72,16 +72,16 @@ canvas {
   padding: 20px;
   line-height: 1.5;
   /* transform: translateX(-400px); */
-  transform: translate3d(-500px, -500px, 0px);
+  transform: translate3d(-1500px, -500px, 0px);
   /* transition: all 0.5s ease-out; */
-  transition: transform 1s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .rules.show {
   /* transform: translateX(0); */
   transform: translate3d(0, 0, 0);
 }
-@media (max-width: 540px) {
+@media (max-width: 840px) {
   #canvas {
     width: 95%;
   }
@@ -89,9 +89,13 @@ canvas {
     width: 100%;
     padding: 20px;
   }
+  .arrows-control {
+    display: block;
+    margin-top: 2rem;
+  }
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media (pointer: coarse) {
   .arrows-control {
     display: block;
     margin-top: 2rem;
