@@ -76,13 +76,46 @@ canvas {
   /* transform: translateX(-400px); */
   transform: translate3d(-1500px, -500px, 0px);
   /* transition: all 0.5s ease-out; */
-  transition: transform 0.5s ease-in-out;
+  transition: transform 1.3s ease-in-out;
 }
 
 .rules.show {
   /* transform: translateX(0); */
   transform: translate3d(0, 0, 0);
 }
+
+/* .popup-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-container .popup {
+  width: 70%;
+  background: #2980b9;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+} */
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 @media (max-width: 840px) {
   #canvas {
     width: 95%;
